@@ -1,0 +1,73 @@
+/* колір тексту основний білий -              #FFFFFF */
+/* колір заголовків h2/h3 -                   #212121 */
+/* колір чорного в логотипі -                 #000000 */
+/* колір вторинного (а абзацах) тексту -       #757575 */
+/* колір кнопки, у лого та блакитного тексту - #2196F3 */
+/* колір фона основний білий                 - #F5F5F5 */
+/* колір фона (background) вторичный  - серий #f5f5f5  */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --title-hero-color: #FFFFFF;
+    --secondary-text-color: #FFFFFF;
+    --third-text-color: #2196F3;
+    }
+
+body {
+    color: var(--primary-text-color);
+    background-color: #F5F5F5;
+}
+
+/* Логотип */
+.logo {
+    color: #000000;
+}
+
+.logo-part {
+    color: var(--third-text-color);
+}
+
+/* class list для списков, убираем точки вначале */
+.list {
+    list-style: none;
+}
+
+/* Site Nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--third-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--third-text-color);
+}
+
+/* Контакти в хедері */
+.contact {
+    color: var(--title-text-color);
+}
+
+.contact:hover,
+.contact:focus {
+    color: var(--third-text-color);
+}
+
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
