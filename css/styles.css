@@ -244,28 +244,24 @@ body {
   .port-card-web {
     text-decoration: none;
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
   }
   .port-card-design {
     text-decoration: none;
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
   }
   .port-card-app {
     text-decoration: none;
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
   }
   .port-card-market {
     text-decoration: none;
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
   }
